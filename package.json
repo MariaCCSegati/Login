@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start": "set path=%path%;%appdata%/npm &&ng serve --port 4012",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
